@@ -1,0 +1,124 @@
+
+/*element section ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body{
+  background-color: #0d627a;
+  margin:0;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+}
+
+
+h1{
+  font-family: 'Mystery Quest', cursive;
+  font-size: 4.375rem; /*5.625em = 562.5% = 90px*/
+  padding: 5px;
+  margin-top: 0;
+  color: #0d627a;
+}
+h2{
+  background-color: #cce490;
+}
+
+/* class section ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.top {
+  background-color: #8bd5cb;
+  margin:0;
+  text-align: center;
+  border: 0;
+  padding: 100;
+  position:relative;
+}
+.middle{
+    height: 200px;
+    width: 200px;
+
+    background-color: #c56868;
+}
+.bottom{
+    height: 200px;
+    width: 200px;
+    background-color: #974949;
+}
+.mountain{
+  position:relative;
+  top:4px;
+
+}
+.cloud1{
+  padding: 20px;
+    animation-direction: alternate;
+    position: relative;
+    animation-name: cloudmovement;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.cloud2{
+  float: left;
+  position: relative;
+  top: 20px;
+  left:20px;
+  padding:10px;
+  animation-name: cloudmovement2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+.cloud3{
+  float:right;
+  position: relative;
+  right: 100px;
+  top: 150px;
+  padding: 10px;
+  animation-direction: alternate;
+  animation-name: cloudmovement;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+.background1{
+  background-color: #0c907d;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0;
+
+}
+.background2{
+  background-color: #f2f4b2;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+@keyframes cloudmovement {
+  0%   {right:0;}
+  25%  {right:20px;}
+  50%  {right:40px;}
+  75%  {right:60px;}
+  100% {right:80px;}
+}
+@keyframes cloudmovement2 {
+  0%   {left:0;}
+  25%  {left:20px;}
+  50%  {left:40px;}
+  75%  {left:60px;}
+  100% {left:80px;}
+}
+.tagline{
+  font-size: 2.5rem;
+  color: #0d627a;
+  line-height: 2;
+  font-weight: normal;
+}
+.skill-row{
+  width: 50%;
+margin: auto;
+}
+.meNginger{
+  margin: auto;
+  border-radius: 50%;
+}
+.guitar{
+  margin: auto;
+  border-radius: 100%;
+}
