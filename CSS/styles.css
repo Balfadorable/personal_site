@@ -17,6 +17,7 @@ h1{
 }
 h2{
   background-color: #cce490;
+  margin: 10px;
 }
 
 /* class section ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -60,7 +61,7 @@ h2{
   left:20px;
   padding:10px;
   animation-name: cloudmovement2;
-  animation-duration: 7s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
 }
@@ -72,7 +73,7 @@ h2{
   padding: 10px;
   animation-direction: alternate;
   animation-name: cloudmovement;
-  animation-duration: 7s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
 }
 .background1{
@@ -83,7 +84,7 @@ h2{
 
 }
 .background2{
-  background-color: #f2f4b2;
+  background-color: #f5fac7;
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 0;
@@ -92,17 +93,17 @@ h2{
 
 @keyframes cloudmovement {
   0%   {right:0;}
-  25%  {right:20px;}
-  50%  {right:40px;}
-  75%  {right:60px;}
-  100% {right:80px;}
+  25%  {right:50px;}
+  50%  {right:100px;}
+  75%  {right: 150px;}
+  100% {right: 200px;}
 }
 @keyframes cloudmovement2 {
   0%   {left:0;}
-  25%  {left:20px;}
-  50%  {left:40px;}
-  75%  {left:60px;}
-  100% {left:80px;}
+  25%  {left: 50px;}
+  50%  {left:100px;}
+  75%  {left:150px;}
+  100% {left:200px;}
 }
 .tagline{
   font-size: 2.5rem;
@@ -112,13 +113,42 @@ h2{
 }
 .skill-row{
   width: 50%;
-margin: auto;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
 }
 .meNginger{
-  margin: auto;
+  height:500px;
+  width:500px;
+  margin: 50px auto 10px auto;
   border-radius: 50%;
 }
 .guitar{
-  margin: auto;
+  margin-right: 30px;
+  border-radius: 25%;
+  height: 200px;
+  width:200px;
+  float: left;
+}
+.hello{
+  padding:10px;
+}
+.solar{
+  margin-left: 30px;
+  border-radius: 25%;
+  height: 200px;
+  width:200px;
+  float: right;
+}
+.ginger{
+  height: 200px;
+  width:200px;
+  float:left;
+  margin-right: 30px;
+  border-radius: 25%;
+}
+.bottomPic{
+  height:100px;
+  width:100px;
   border-radius: 100%;
 }
